@@ -120,7 +120,7 @@ app.post('/delete-note', (req, res, next) => {
         });
     });
 });
-
+//No comment
 app.post('/add-note', (req, res, next) => {
     const user = req.user;
 
